@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="itemC" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="720.0" spacing="55.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 5; -fx-background-insets: 0;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label prefHeight="17" prefWidth="20.0" text="1" textAlignment="CENTER" />
+        <ImageView fitHeight="29.0" fitWidth="80.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../resources/foor.png" />
+            </image>
+            <HBox.margin>
+                <Insets left="0.0" />
+            </HBox.margin>
+        </ImageView>
+        <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="65.0" text="Assoc tenf" />
+        <Label prefHeight="30.0" prefWidth="70.0" text="Les amicales">
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </Label>
+        <Label alignment="CENTER" text="12/12/2020">
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </Label>
+        <Label text="12/12/2022">
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </Label>
+      <Label layoutX="604.0" layoutY="28.0" text="12" />
+
+    </children>
+    <effect>
+        <DropShadow blurType="GAUSSIAN" height="5.0" radius="2.0" width="5.0" />
+    </effect>
+</HBox>

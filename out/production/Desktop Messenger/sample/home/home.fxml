@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="1071.0" style="-fx-background-color: #e1dede;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.home.controller">
+    <children>
+        <AnchorPane prefHeight="519.0" prefWidth="262.0" style="-fx-background-color: #393351; -fx-background-radius: 0 50 0 0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox layoutY="160.0" prefHeight="388.0" prefWidth="254.0">
+                    <children>
+                        <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#home" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Home" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="31.0" fitWidth="35.0">
+                                    <image>
+                                        <Image url="@../../resources/home-5-128.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                            <padding>
+                                <Insets left="40.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font></Button>
+                        <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#terrain" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Terrain" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="37.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/combine.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <padding>
+                                <Insets left="40.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#reservation" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Reservation" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="31.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/icons8-calendrier-50.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <padding>
+                                <Insets left="40.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#association" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Association" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="31.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/pngfind.com-white-png-1822310.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <padding>
+                                <Insets left="40.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#abonnement" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Abonnement" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="34.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/icons8-checkmark-24.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <padding>
+                                <Insets left="40.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="230.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Compte" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/user.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                        <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#login" prefHeight="54.0" prefWidth="256.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Se déconnecter" textFill="WHITE">
+                            <graphic>
+                                <ImageView fitHeight="36.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../resources/icons8-sortie-48.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <padding>
+                                <Insets left="40.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </VBox>
+                <Pane layoutY="61.0" prefHeight="72.0" prefWidth="262.0" style="-fx-background-color: #DCDCDC; -fx-background-radius: 5;">
+                    <children>
+                        <ImageView fitHeight="64.0" fitWidth="262.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="-9.0" prefHeight="83.0" prefWidth="196.0" style="-fx-background-position: center; -fx-font-family: monospace; -fx-font-style: italic;" text="MAL3ABONA" textAlignment="RIGHT" textFill="#39b267">
+                            <font>
+                                <Font name="System Bold" size="30.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="44.0" fitWidth="47.0" layoutX="203.0" layoutY="11.0" pickOnBounds="true">
+                            <image>
+                                <Image url="@../../resources/foor.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+            </children></AnchorPane>
+      <AnchorPane layoutX="260.0" layoutY="-14.0" prefHeight="605.0" prefWidth="811.0" style="-fx-background-color: #e1dede;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="253.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="46.0" layoutY="90.0" text="DashBoard">
+               <font>
+                  <Font name="Bernard MT Condensed" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" prefHeight="47.0" prefWidth="317.0" text="Tableau du Bord">
+               <font>
+                  <Font name="MV Boli" size="34.0" />
+               </font>
+            </Label>
+            <HBox layoutX="46.0" layoutY="137.0" prefHeight="128.0" prefWidth="748.0" spacing="20.0" AnchorPane.bottomAnchor="340.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="137.0">
+               <children>
+                  <VBox prefHeight="109.0" prefWidth="230.0" spacing="10.0" styleClass="card" stylesheets="@../../css/fullpackstyling.css">
+                     <children>
+                        <HBox prefHeight="115.0" prefWidth="194.0">
+                           <children>
+                              <VBox prefHeight="109.0" prefWidth="219.0">
+                                 <children>
+                                    <Pane prefHeight="50.0" prefWidth="191.0">
+                                       <children>
+                                          <Label contentDisplay="CENTER" layoutX="14.0" layoutY="11.0" prefHeight="37.0" prefWidth="106.0" text="TERRAINS">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <ImageView fitHeight="37.0" fitWidth="59.0" layoutX="175.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../resources/terrain.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="68.0" prefWidth="250.0">
+                                       <children>
+                                          <Label layoutX="22.0" layoutY="-5.0" prefHeight="72.0" prefWidth="61.0" text="30T">
+                                             <font>
+                                                <Font name="System Bold" size="30.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="109.0" prefWidth="226.0" styleClass="card1" stylesheets="@../../css/fullpackstyling.css">
+                     <children>
+                        <HBox prefHeight="109.0" prefWidth="226.0">
+                           <children>
+                              <VBox prefHeight="109.0" prefWidth="230.0">
+                                 <children>
+                                    <Pane prefHeight="53.0" prefWidth="216.0">
+                                       <children>
+                                          <Label contentDisplay="CENTER" layoutX="14.0" layoutY="11.0" prefHeight="37.0" prefWidth="119.0" text="ASSOCIATIONS" textFill="WHITE">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <ImageView fitHeight="37.0" fitWidth="59.0" layoutX="175.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../resources/pngfind.com-white-png-1822310.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                                      <Pane prefHeight="68.0" prefWidth="250.0">
+                                       <children>
+                                          <Label layoutX="22.0" layoutY="-5.0" prefHeight="72.0" prefWidth="61.0" text="30A" textFill="WHITE">
+                                             <font>
+                                                <Font name="System Bold" size="30.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox layoutX="462.0" layoutY="10.0" prefHeight="109.0" prefWidth="226.0" styleClass="card" stylesheets="@../../css/fullpackstyling.css">
+                     <children>
+                        <HBox prefHeight="109.0" prefWidth="226.0">
+                           <children>
+                              <VBox prefHeight="109.0" prefWidth="230.0">
+                                 <children>
+                                    <Pane prefHeight="53.0" prefWidth="216.0">
+                                       <children>
+                                          <Label contentDisplay="CENTER" layoutX="14.0" layoutY="11.0" prefHeight="37.0" prefWidth="119.0" text="RESERVATIONS">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="167.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../resources/calendar.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="68.0" prefWidth="250.0">
+                                       <children>
+                                          <Label layoutX="22.0" layoutY="-5.0" prefHeight="72.0" prefWidth="61.0" text="30R">
+                                             <font>
+                                                <Font name="System Bold" size="30.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <Line endX="709.0" endY="18.0" layoutX="107.0" layoutY="42.0" startX="-101.0" startY="18.0" strokeWidth="3.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <HBox layoutX="594.0" layoutY="2.0" prefHeight="55.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

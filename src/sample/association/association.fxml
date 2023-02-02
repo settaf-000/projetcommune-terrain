@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.94" prefHeight="605.0" prefWidth="1071.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.association.controller">
+    <AnchorPane prefHeight="519.0" prefWidth="262.0" style="-fx-background-color: #393351; -fx-background-radius: 0 50 0 0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <children>
+            <VBox layoutY="160.0" prefHeight="356.0" prefWidth="262.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="160.0">
+                <children>
+                    <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" styleClass="button1" onAction="#home" stylesheets="@../../css/fullpackstyling.css" text="Home" textFill="WHITE">
+                        <graphic>
+                            <ImageView fitHeight="31.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../resources/home-5-128.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                        <VBox.margin>
+                            <Insets />
+                        </VBox.margin>
+                        <padding>
+                            <Insets left="40.0" />
+                        </padding>
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Button>
+                    <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" onAction="#terrain" text="Terrain" textFill="WHITE">
+                        <graphic>
+                            <ImageView fitHeight="37.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../resources/combine.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                        <padding>
+                            <Insets left="40.0" />
+                        </padding>
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Button>
+                    <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" onAction="#reservation" text="Reservation" textFill="WHITE">
+                        <graphic>
+                            <ImageView fitHeight="31.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../resources/icons8-calendrier-50.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                        <padding>
+                            <Insets left="40.0" />
+                        </padding>
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Button>
+                    <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" onAction="#association" text="Association" textFill="WHITE">
+                        <graphic>
+                            <ImageView fitHeight="31.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../resources/pngfind.com-white-png-1822310.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                        <padding>
+                            <Insets left="40.0" />
+                        </padding>
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Button>
+                    <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Abonnement" textFill="WHITE">
+                        <graphic>
+                            <ImageView fitHeight="34.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../resources/icons8-checkmark-24.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                        <padding>
+                            <Insets left="40.0" />
+                        </padding>
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Button>
+                    <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="230.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" text="Compte" textFill="WHITE">
+                        <graphic>
+                            <ImageView fitHeight="34.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../resources/user.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                        <padding>
+                            <Insets left="40.0" />
+                        </padding>
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Button>
+                    <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" styleClass="button1" stylesheets="@../../css/fullpackstyling.css" onAction="#login" text="Se déconnecter" textFill="WHITE">
+                        <graphic>
+                            <ImageView fitHeight="36.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../resources/icons8-sortie-48.png" />
+                                </image>
+                            </ImageView>
+                        </graphic>
+                        <padding>
+                            <Insets left="40.0" />
+                        </padding>
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Button>
+                </children>
+            </VBox>
+            <Pane layoutY="61.0" prefHeight="72.0" prefWidth="262.0" style="-fx-background-color: #DCDCDC; -fx-background-radius: 5;">
+                <children>
+                    <ImageView fitHeight="64.0" fitWidth="262.0" pickOnBounds="true" preserveRatio="true" />
+                    <Label alignment="CENTER" layoutY="-8.0" prefHeight="83.0" prefWidth="196.0" style="-fx-background-position: center;" text="MAL3ABONA" textAlignment="RIGHT" textFill="#328350">
+                        <font>
+                            <Font name="MV Boli" size="28.0" />
+                        </font>
+                    </Label>
+                    <ImageView fitHeight="44.0" fitWidth="47.0" layoutX="196.0" layoutY="14.0" pickOnBounds="true">
+                        <image>
+                            <Image url="@../../resources/foor.png" />
+                        </image>
+                    </ImageView>
+                </children>
+            </Pane>
+        </children>
+    </AnchorPane>
+    <AnchorPane layoutX="259.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="813.0">
+        <children>
+            <AnchorPane layoutX="50.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="183.0" prefWidth="744.0">
+                <children>
+                    <ImageView fitHeight="191.0" fitWidth="744.0" layoutX="-3.0" layoutY="-12.0" opacity="0.87" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../resources/2202059-terrain-de-football-classique-realiste-avec-revetement-vert-bicolore-vectoriel-modified.png" />
+                        </image>
+                    </ImageView>
+                    <Label layoutX="31.0" layoutY="3.0" prefHeight="35.0" prefWidth="118.0" text="Nom Assoc" textFill="#0a0a0a">
+                        <font>
+                            <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                    </Label>
+                    <TextField fx:id="nomassociation" layoutX="163.0" layoutY="7.0" prefHeight="27.0" prefWidth="150.0" promptText="Entrer nom Assoc" style="-fx-background-radius: 15 15 15 15; -fx-opacity: 100;">
+                        <font>
+                            <Font size="13.0" />
+                        </font>
+                    </TextField>
+                    <Label layoutX="14.0" layoutY="122.0" text="Date creation" textFill="#0a0a0a">
+                        <font>
+                            <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="388.0" layoutY="6.0" text="Derniere reserv" textFill="#0a0a0a">
+                        <font>
+                            <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="382.0" layoutY="120.0" textFill="#0a0a0a">
+                        <font>
+                            <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="6.0" layoutY="59.0" prefHeight="35.0" prefWidth="105.0" text="Description" textFill="#0a0a0a">
+                        <font>
+                            <Font name="System Bold Italic" size="19.0" />
+                        </font>
+                    </Label>
+                    <TextArea fx:id="description" layoutX="134.0" layoutY="60.0" prefHeight="44.0" prefWidth="174.0" promptText="Entrer description" style="-fx-background-radius: 15 15 15 15;" />
+                    <Label layoutX="434.0" layoutY="62.0" text="Nombre reserv" textFill="#0a0a0a">
+                        <font>
+                            <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                    </Label>
+                    <TextField fx:id="nbreserv" layoutX="582.0" layoutY="63.0" prefHeight="27.0" prefWidth="150.0" promptText="Entrer Nb reservs" style="-fx-background-radius: 15 15 15 15; -fx-opacity: 100;">
+                        <font>
+                            <Font size="13.0" />
+                        </font>
+                    </TextField>
+                    <DatePicker fx:id="dernierereserv" layoutX="552.0" layoutY="9.0" prefHeight="25.0" prefWidth="162.0" promptText="dernier reserv" style="-fx-background-radius: 15 15 15 15 15;" />
+                    <Label layoutX="442.0" layoutY="142.0" prefHeight="35.0" prefWidth="103.0" text="Logo Assoc" textFill="#0a0a0a">
+                        <font>
+                            <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                    </Label>
+                    <DatePicker fx:id="datecreation" layoutX="170.0" layoutY="125.0" prefHeight="25.0" prefWidth="162.0" promptText="Date creation" style="-fx-background-radius: 15 15 15 15 15;" />
+                </children>
+            </AnchorPane>
+          <Line endY="55.500003814697266" startX="797.0" startY="55.5" strokeWidth="3.0" />
+          <Label contentDisplay="TOP" prefHeight="55.0" prefWidth="414.0" style="-fx-font-family: 'MV Boli', sans-serif; -fx-font-weight: 600;" text="Gestion des Associations">
+              <font>
+                  <Font size="34.0" />
+              </font>
+          </Label>
+          <Button cancelButton="true" layoutX="128.0" layoutY="281.0" mnemonicParsing="false" onAction="#Add_associations" prefHeight="44.0" prefWidth="236.0" stylesheets="@../../css/fullpackstyling.css" text="Ajouter Association">
+              <styleClass>
+                  <String fx:value="ajout" />
+                  <String fx:value="ajout" />
+                  <String fx:value="ajout" />
+              </styleClass>
+          </Button>
+          <Button cancelButton="true" layoutX="454.0" layoutY="281.0" mnemonicParsing="false" onAction="#Delete" prefHeight="44.0" prefWidth="236.0" stylesheets="@../../css/fullpackstyling.css" text="Supprimer Association">
+              <styleClass>
+                  <String fx:value="delet" />
+                  <String fx:value="delet" />
+                  <String fx:value="delet" />
+              </styleClass>
+          </Button>
+         <TableView fx:id="tableassociations" layoutX="65.0" layoutY="348.0" onSort="#getSelected" prefHeight="242.0" prefWidth="727.0" stylesheets="@../../css/fullpackstyling.css">
+           <columns>
+             <TableColumn fx:id="col_id" prefWidth="67.0" text="id_Assoc" />
+             <TableColumn fx:id="col_logo" prefWidth="83.0" text="logo_Assoc" />
+               <TableColumn fx:id="col_nom" minWidth="0.0" prefWidth="87.0" text="Nom_Assoc" />
+               <TableColumn fx:id="col_description" minWidth="0.0" prefWidth="200.0" text="Description" />
+               <TableColumn fx:id="col_datec" prefWidth="101.0" text="Date_Creation" />
+               <TableColumn fx:id="col_dater" prefWidth="109.0" text="Dern_Resrv" />
+               <TableColumn fx:id="col_nb" prefWidth="79.0" text="Nb_Resrv" />
+           </columns>
+         </TableView>
+        </children>
+    </AnchorPane>
+
+</AnchorPane>
